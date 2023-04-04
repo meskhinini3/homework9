@@ -3,7 +3,7 @@ body{
    padding-top: 65px;
 }
 .header-conteiner{ 
-    width: 1220px;
+    width: 1100px;
     margin: 0 auto;
     background-color: #ffffff;
    
@@ -64,16 +64,150 @@ body{
 .left-block{
     /* background-color: black; */
     width: 550px;
-    height: 305.5px;
+    height: 301.6px;
     background-color: #37393FE8;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    /* text-align: left; */
     /* opacity: 0.7; */
 }
 .left-block-text{
     font-size: 36px;
     font-weight: 700px;
+    width: 130px;
+}
+
+
+/* footer styles*/
+.footer-section01{
+    background-color: #37393F;
+    width: 100%;
+    height: 550px;
   
+} 
+.footer-content{ 
+width: 1100px;
+height: 370px;
+margin: 0 auto;
+
+
+}
+.footer-header{
+display: flex;
+margin-bottom: 30px;
+
+}
+.icon-block{
+    display: flex;
+    margin-left: 30px;
+
+}
+.icon{
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    background-color:#4C4D52;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.fa-phone{
+    color: #40DDB6;
+    font-size: 20px;
+}
+.icon-block-text{
+ font-size: 20px;
+font-weight: 600;
+color: #FFFFFF;
+}
+.info-span{
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.text-div{
+    display: flex;
+    flex-direction: column;
+}
+.border-div{
+    border: 1px solid #6C6D72; 
+    margin-bottom: 15px;
+
+}
+.block01{
+display: flex;
+flex-direction: column;
+margin-right: 74px;
+}
+.block01-a{
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.block01-a2{
+    font-size: 18px;
+    color: #40DDB6;
+}
+.block01-li{
+    margin-bottom: 20px;
+}
+.block01-title{
+    font-size: 30px;
+    color: #40DDB6; 
+    margin: 30px 0 20px 0; 
+    font-weight: 600;
+}
+.bottom-parent-box{ 
+    display: flex;
+   
+}
+.email-box{
+ width: 400px;
+ height: 200px;
+ background-color: #474950;
+ padding: 40px 30px;
+ margin-top: 37px;
+}
+.email-box-title{ 
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.email-box-text{
+    font-size: 18px;
+    color: #FFFFFF;
+margin-bottom: 13px;
+}
+.long-box{
+    width: 340px;
+    height: 60px;
+    display: flex;
+ 
+
+}
+.white-box{
+    width: 205px;
+    height: 60px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.purple-box{
+    width: 135px;
+    height: 60px;
+    background-color: #6B77E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.white-box-text{
+    color: #37393F;
+    font-size: 18px;
+}
+.purple-box-text{
+    font-size: 18px;
+    color: #FFFFFF;
 }
