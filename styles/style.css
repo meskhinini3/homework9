@@ -79,6 +79,153 @@ body{
     width: 130px;
 }
 
+.section02{
+    width: 900px;
+    height: 1600px;
+    /* background-color: #6B77E5; */
+    margin: 0 auto;
+}
+.parent-left-block{
+   width: 400px; 
+   height: 1375px;
+   /* background-color: #474950; */
+}
+.left-block01{
+    width: 400px;
+    height: 460px;
+    background-color:#F4F4F4;
+    padding: 46px 38px 46px 50px;
+    
+}
+.left-block01-title{
+    font-size: 25px;
+    font-weight: 600;
+    color: #37393F;
+    margin-bottom: 30px;
+}
+.left-block01-a{
+    font-size: 20px;
+    color: #37393F;
+  
+
+}
+.left-block01-li{
+    margin-bottom: px;
+    height: 50px;
+    /* display: flex;
+    align-items: center; */
+    justify-content: center;
+
+}
+.left-block02{
+    width: 400px;
+    height: 390px;
+    background-color: #F4F4F4;
+    padding: 45px 38px 45px 38px;
+    margin: 50px 0;
+}
+.left-block02-title{
+    font-size: 25px;
+    font-weight: 600px;
+    color: #37393F;
+}
+.left-block02-text{
+    opacity: 60%;
+    font-size: 18px;
+}
+.document-block{
+    width: 240px;
+    height: 60px;
+    background-color: #6B77E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.document-block-text{
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-left: 18px;
+}
+/* .left-block03-img{
+    width: 400px;
+} */
+.left-block03{
+    width: 400px;
+    height: 425px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg-img2{
+    background-image: url(../img/Rectangle\ 107.jpg);
+    background-size: cover;
+
+}
+.left-block03-text-content{
+    width: 280px;
+    text-align: center;
+}
+.left-block03-title{
+    font-size: 45px; 
+    font-weight: 700px;
+}
+.left-block-text1{ 
+    color: #37393F;
+    font-weight: 500px;
+    font-size: 18px;
+}
+.left-block-text2{
+    color: #37393F;
+    font-size: 18px;
+}
+.left-block03-span{
+    color: #FFFFFF;
+}
+
+/* hover */
+.left-block01-li::after{
+    content: '\003e';
+    font-size: 25px;
+   
+}
+.left-block02-title::after{
+    content: " ";
+    height: 2px;
+    width: 320px;
+    background-color:#37393F;
+    display: block;
+    margin: 20px 0;
+
+}
+.left-block01-li:hover{
+  background-color: #6B77E5;
+    width: 300px;
+    height: 50px;
+    color: #FFFFFF;
+   
+}
+.left-block01-a:hover{
+    color: #F4F4F4;
+    
+      
+}
+/* .left-block03-title::before{
+content: 'Have any question?';
+display: block;
+} 
+.left-block03-title::after{
+   content: 'Leverage agile frameworks to provide a robust synopsis for high level.' ;
+   display: block;
+} */
+
+
+
+
+
+
+
 
 /* footer styles*/
 .footer-section01{
